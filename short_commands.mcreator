@@ -1,0 +1,241 @@
+{
+  "mod_elements": [
+    {
+      "name": "Day",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/procedures/DayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Night",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/procedures/NightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiveCommandBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_command_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/procedures/GiveCommandBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiveBarrier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_barrier",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/procedures/GiveBarrierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeatherClear",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weather_clear",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/procedures/WeatherClearProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetDay",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_day",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/command/SetDayCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SetNight",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_night",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/command/SetNightCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "GiveCmdBlock",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_cmd_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/command/GiveCmdBlockCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "GiveBar",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_bar",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/command/GiveBarCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Wclear",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wclear",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/mcshortcommands/command/WclearCommand.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "short_commands",
+    "modName": "FedotovDev\u0027s Short Commands",
+    "version": "1.0.0",
+    "author": "Daniil, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "com.fedotovdev.mcshortcommands"
+  },
+  "mcreatorVersion": 202400232117
+}
